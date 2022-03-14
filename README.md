@@ -13,13 +13,13 @@ Syntax highlighted code block
 
 # Growth Mindset
 
-
+What having a growth mindset means to me stepping outside your comfort zone. Embracing your mistakes by learning from them and growing from them. Not giving into the fear of failure. Knowing that I can achieve what I put my mind too.
 
 
 ## Reminders
-
-
-
+* Walk away for a minute when needed
+* Have confidence that you will get it
+* Don't be afraid to ask for help when needed
 
 ### Header 3
 
