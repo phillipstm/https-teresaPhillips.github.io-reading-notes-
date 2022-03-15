@@ -21,7 +21,7 @@ What having a growth mindset means to me stepping outside your comfort zone. Emb
 * Have confidence that you will get it
 * Don't be afraid to ask for help when needed
 
-[Link](url) and ![Image](src)
-```
+![Image](growing-mind.PNG)
+
 
 
