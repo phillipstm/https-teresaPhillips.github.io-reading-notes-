@@ -12,3 +12,4 @@ file path
 .. dotdot a reference in a parent directory
 ls~a shows all files even hidden
 cd is a document
+echo to display a system variable stating your current shell.
