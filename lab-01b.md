@@ -1,4 +1,5 @@
 ## Welcome to GitHub Pages
+- [Table of Contents](README.md)
 
 You can use the [editor on GitHub](https://github.com/phillipstm/https-teresaPhillips.github.io-reading-notes-/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
