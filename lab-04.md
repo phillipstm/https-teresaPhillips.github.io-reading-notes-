@@ -36,3 +36,9 @@ The main parts of our element are:
     <img src="images/firefox-icon.png" alt="My test image">
   </body>
 </html>
+
+# Semantics
+
+In programming, Semantics refers to the meaning of a piece of code — for example "what effect does running that line of JavaScript have?", or "what purpose or role does that HTML element have" (rather than "what does it look like?".)
+
+These are some of the roughly 100 semantic elements available: Consider your audience and purpose
