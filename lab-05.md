@@ -14,7 +14,7 @@ To link styles.css to index.html, add the following line somewhere inside the <h
 
 <link rel="stylesheet" href="styles.css">
 
-CSS reference https://www.w3schools.com/css/default.asp
+CSS reference https://www.w3schools.com/css/default.asp to reference index of syntax
 
 33 ways to insert CSS
 
@@ -130,5 +130,7 @@ body h1 + p .special {
   padding: 5px;
 }
 
+## CSS Reset
 
+https://meyerweb.com/eric/tools/css/reset/
 
