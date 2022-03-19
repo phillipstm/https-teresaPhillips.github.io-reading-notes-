@@ -1,5 +1,5 @@
 # Read: 07 - Programming with JavaScript
-Table of Contents
+- [Table of Contents](README.md)
 
 control flow- the order in which the computer executes statements in a script.
 

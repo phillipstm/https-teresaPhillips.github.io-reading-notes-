@@ -1,5 +1,5 @@
 # 06 - Dynamic web pages with JavaScript
-Table of Contents
+- [Table of Contents](README.md)
 
 
 JavaScript | MDN (mozilla.org)  or JS  just in time
