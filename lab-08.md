@@ -112,3 +112,47 @@ Less than (<)	         Returns true if the left operand is less than the right o
 Less than or equal (<=)	 Returns true if the left operand is less than or equal to the right operand.	                 var1 <= var2
                                                                                                                          var2 <= 5   
 
+###-Note: => is not a comparison operator but rather is the notation for Arrow functions.                                                                                                                        
+
+### Logical Operators
+
+Operator	        Description	            Example	
+&&	                    and	            (x < 10 && y > 1) is true	
+||	                    or	            (x == 5 || y == 5) is false	
+!	                    not	            !(x == y) is true
+
+### Conditional (Ternary) Operator 
+JavaScript also contains a conditional operator that assigns a value to a variable based on some condition. 
+-Syntax
+    variablename = (condition) ? value1:value2 
+
+    let voteable = (age < 18) ? "Too young":"Old enough";
+
+## Loops
+Loops offer a quick and easy way to do something repeatedly. This chapter of the JavaScript Guide introduces the different iteration statements available to JavaScript. 
+
+There are many different kinds of loops, but they all essentially do the same thing: they repeat an action some number of times. (Note that it's possible that number could be zero!)
+
+# for statement loop
+A for loop repeats until a specified condition evaluates to false. The JavaScript for loop is similar to the Java and C for loop. 
+
+for - loops through a block of code a number of times
+
+    for ([initialExpression]; [conditionExpression]; [incrementExpression])
+    statement
+
+-The initializing expression initialExpression, if any, is executed. This expression usually initializes one or more loop counters, but the syntax allows an expression of any degree of complexity. This expression can also declare variables.
+
+-The conditionExpression expression is evaluated. If the value of conditionExpression is true, the loop statements execute. If the value of condition is false, the for loop terminates. (If the condition expression is omitted entirely, the condition is assumed to be true.)
+
+-The statement executes. To execute multiple statements, use a block statement ({ ... }) to group those statements.
+
+-If present, the update expression incrementExpression is executed. 
+
+-Control returns to Step 2.. 
+
+# while loop
+
+
+
+
