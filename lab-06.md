@@ -13,18 +13,35 @@ Note: In JavaScript, all code instructions should end with a semi-colon (;) — 
 
 ### variables
 A variable is a container for a value, like a number we might use in a sum, or a string that we might use as part of a sentence.
+-Notes-Variables are containers for storing values. It's a good programming practice to declare all variables at the beginning of a script.
 
-<button id="button_A">Press me</button>
-<h3 id="heading_A"></h3>
+    4 Ways to Declare a JavaScript Variable:
 
-const buttonA = document.querySelector('#button_A');
-const headingA = document.querySelector('#heading_A');
+    Using var
+    Using let
+    Using const
+    Using nothing
 
-buttonA.onclick = () => {
-  const name = prompt('What is your name?');
-  alert(`Hello ${name}, nice to see you!`);
-  headingA.textContent = `Welcome ${name}`;
-}
+-Note always declare JavaScript variables with var,let, or const. The var keyword is used in all JavaScript code from 1995 to 2015. The let and const keywords were added to JavaScript in 2015. If you want your code to run in older browser, you must use var.
+
+If you want a general rule: always declare variables with const. If you think the value of the variable can change, use let. In this example, price1, price2, and total, are variables:
+
+    const price1 = 5;
+    const price2 = 6;
+    let total = price1 + price2;
+
+
+    <button id="button_A">Press me</button>
+    <h3 id="heading_A"></h3>
+
+    const buttonA = document.querySelector('#button_A');
+    const headingA = document.querySelector('#heading_A');
+
+    buttonA.onclick = () => {
+    const name = prompt('What is your name?');
+    alert(`Hello ${name}, nice to see you!`);
+    headingA.textContent = `Welcome ${name}`;
+    }
 
 ### Numbers and operators
 Combine operators and other features to successfully manipulate numbers to do our bidding.
@@ -103,6 +120,44 @@ To find if a substring is inside a string. This can be done using the includes()
     }
 
 To find if a string starts or ends with a particular substring. This is a common enough need that there are two special methods for this: startsWith() and endsWith():
+
+    if (browserType.startsWith('zilla')) {
+        or
+    if (browserType.endsWith('zilla')) {
+
+### Extracting a substring from a string
+You can extract a substring from a string using the slice() method. The index at which to start extracting. The index at which to stop extracting. This is exclusive, meaning that the character at this index is not included in the extracted substring.
+
+    const browserType = 'mozilla';
+    console.log(browserType.slice(1, 4)); // "ozi"
+
+If you want to extract all of the remaining characters in a string after a certain character, you don't have to include the second parameter. Instead, you only need to include the character position from where you want to extract the remaining characters in a string.
+
+### Changing case
+The string methods toLowerCase() and toUpperCase() take a string and convert all the characters to lower- or uppercase.
+
+    const radData = 'My NaMe Is MuD';
+    console.log(radData.toLowerCase());
+    console.log(radData.toUpperCase());
+
+### Updating parts of a string 
+You can replace one substring inside a string with another substring using the replace() method. 
+
+    const browserType = 'mozilla';
+    const updated = browserType.replace('moz','van');
+
+    console.log(updated);      // "vanilla"
+    console.log(browserType);  // "mozilla"
+
+-Note that replace(), like many string methods, doesn't change the string it was called on, but returns a new string. If you want to update the original browserType variable.
+-Note we now have to declare browserType using let, not const, because we are reassigning it.
+
+    let browserType = 'mozilla';
+    browserType = browserType.replace('moz','van');
+
+    console.log(browserType);  // "vanilla"
+
+
 
 
 
