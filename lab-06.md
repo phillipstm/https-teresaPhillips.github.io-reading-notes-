@@ -48,6 +48,70 @@ myFloat;
 
 Note--operator precedence — some operators are applied before others when calculating the result of a calculation (referred to as an expression, in programming). Operator precedence in JavaScript is the same as is taught in math classes in school
 
+## Handling Text Strings
+
+strings — this is what pieces of text are called in programming.
+
+Declaring a variable, initializing it with a string value, and then returning the value. The only difference here is that when writing a string, you need to surround the value with quotes.
+
+    const string = 'The revolution will not be televised.';
+    console.log(string);
+
+Escaping Strings-To fix previous problem code line, we need to escape the problem quote mark. Escaping characters means that we do something to them to make sure they are recognized as text, not part of the code. In JavaScript, we do this by putting a backslash just before the character.
+
+    const bigmouth = 'I\'ve got no right to take my place...';
+    console.log(bigmouth);
+
+Conccontenating Strings-To join together strings in JavaScript you can use a different type of string, called a template literal. A template literal looks just like a normal string, but instead of using single or double quote marks (' or "), you use backtick characters (`):
+
+    const name = 'Chris';
+    const greeting = `Hello, ${name}`;
+    console.log(greeting); // "Hello, Chris"
+
+## Useful String Methods
+
+Strings with built-in methods, such as finding the length of a text string, joining and splitting strings, substituting one character in a string for another, and more.
+
+    const string = 'This is my string';
+
+### Finding the length of a string
+Use the length property. Try entering the following lines: Useful to find the lengths of a series of names so you can display them in order of length, or let a user know that a username they have entered into a form field is too long if it is over a certain length.
+
+    const browserType = 'mozilla';
+    browserType.length;
+
+### Retrieving a specific string character
+Return any character inside a string by using square bracket notation — this means you include square brackets ([]) on the end of your variable name. Inside the square brackets you include the number of the character you want to return.
+        
+    browserType[0];
+
+## Remember: computers count from 0, not 1!
+
+To retrieve the last character of any string, we could use the following line, combining this technique with the length property we looked at above:
+
+    browserType[browserType.length-1];
+
+### Testing if a string contains a substring
+To find if a substring is inside a string. This can be done using the includes() method, which takes a single parameter — the substring you want to search for. It returns true if the string contains the substring, and false otherwise.
+
+    const browserType = 'mozilla';
+
+    if (browserType.includes('zilla')) {
+    console.log('Found zilla!');
+    } else {
+    console.log('No zilla here!');
+    }
+
+To find if a string starts or ends with a particular substring. This is a common enough need that there are two special methods for this: startsWith() and endsWith():
+
+
+
+
+
+
+
+
+
 
 
 
