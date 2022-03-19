@@ -56,35 +56,35 @@ Use the if statement to execute a statement if a logical condition is true. Use 
 
 An if statement looks like this:
 
-if (condition) {
-  statement_1;
-} else {
-  statement_2;
-}
+  if (condition) {
+    statement_1;
+  } else {
+    statement_2;
+  }
 
 Boolean
 
-if (condition_1) {
-  statement_1;
-} else if (condition_2) {
-  statement_2;
-} else if (condition_n) {
-  statement_n;
-} else {
-  statement_last;
-}
+  if (condition_1) {
+    statement_1;
+  } else if (condition_2) {
+    statement_2;
+  } else if (condition_n) {
+    statement_n;
+  } else {
+    statement_last;
+  }
 
 Best practice
 
 In general, it's good practice to always use block statements—especially when nesting if statements:
 
-if (condition) {
-  statement_1_runs_if_condition_is_true;
-  statement_2_runs_if_condition_is_true;
-} else {
-  statement_3_runs_if_condition_is_false;
-  statement_4_runs_if_condition_is_false;
-}
+  if (condition) {
+    statement_1_runs_if_condition_is_true;
+    statement_2_runs_if_condition_is_true;
+  } else {
+    statement_3_runs_if_condition_is_false;
+    statement_4_runs_if_condition_is_false;
+  }
 
 
 Arithmetic operators are used to perform arithmetic on numbers:
@@ -102,11 +102,17 @@ Operator	Description
 
 Assignment operators assign values to JavaScript variables.
 
-Operator	Example	Same As
-=	x = y	x = y
-+=	x += y	x = x + y
--=	x -= y	x = x - y
-*=	x *= y	x = x * y
-/=	x /= y	x = x / y
-%=	x %= y	x = x % y
-**=	x **= y	x = x ** y
+Operator	Example	  Same As
+  =	     	x = y		  x = y
+  +=	  	x += y		x = x + y
+  -=		  x -= y		x = x - y
+  *=		  x *= y		x = x * y
+  /=		  x /= y		x = x / y
+  %=		  x %= y		x = x % y
+  <<=		  x <<= y		x = x << y
+  >>=		  x >>= y		x = x >> y
+  >>>=		x >>>= y	x = x >>> y
+  &=		  x &= y		x = x & y
+  ^=		  x ^= y		x = x ^ y
+  |=		  x |= y		x = x | y
+  **=		  x **= y		x = x ** y
