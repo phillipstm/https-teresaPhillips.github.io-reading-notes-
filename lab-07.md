@@ -3,10 +3,7 @@
 
 control flow- the order in which the computer executes statements in a script.
 
-
-
-
-Statements
+## Statements
 JavaScript statements and declarations
 
 Control flow
@@ -87,7 +84,7 @@ In general, it's good practice to always use block statements—especially when 
   }
 
 
-Arithmetic operators are used to perform arithmetic on numbers:
+## Arithmetic operators are used to perform arithmetic on numbers:
 
 Operator	Description
 +	Addition
@@ -100,7 +97,7 @@ Operator	Description
 --	Decrement
 
 
-Assignment operators assign values to JavaScript variables.
+## Assignment operators assign values to JavaScript variables.
 
 Operator	Example	  Same As
   =	     	x = y		  x = y
@@ -116,3 +113,38 @@ Operator	Example	  Same As
   ^=		  x ^= y		x = x ^ y
   |=		  x |= y		x = x | y
   **=		  x **= y		x = x ** y
+
+
+## JavaScript functions
+A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed when "something" invokes it (calls it). Why use functions? You can reuse code: Define the code once, and use it many times. You can use the same code many times with different arguments, to produce different results.
+
+A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses (). 
+The parentheses may include parameter names separated by commas:
+(parameter1, parameter2, ...)
+The code to be executed, by the function, is placed inside curly brackets: {}
+
+  function name(parameter1, parameter2, parameter3) {
+  // code to be executed
+  }
+
+Function parameters are listed inside the parentheses () in the function definition.
+Function arguments are the values received by the function when it is invoked.
+Inside the function, the arguments (the parameters) behave as local variables.
+
+### Function Invocation
+The code inside the function will execute when "something" invokes (calls) the function:
+When an event occurs (when a user clicks a button)
+When it is invoked (called) from JavaScript code
+Automatically (self invoked)
+
+### Function Return
+When JavaScript reaches a return statement, the function will stop executing.
+If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
+Functions often compute a return value. The return value is "returned" back to the "caller":
+
+  let x = myFunction(4, 3);   // Function is called, return value will end up in x
+
+  function myFunction(a, b) {
+    return a * b;             // Function returns the product of a and b
+  }
+ 
