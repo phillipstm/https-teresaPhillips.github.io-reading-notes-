@@ -93,7 +93,7 @@ A comparison operator compares its operands and returns a logical value based on
     var var1 = 3;
     var var2 = 4;
 
-                        Comparison operators
+###                      Comparison operators
 Operator	            Description	                                                                      Examples returning true
 Equal (==)	            Returns true if the operands are equal.	                                                            3 == var1
                                                                                                                           "3" == var1
