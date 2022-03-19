@@ -148,3 +148,43 @@ Functions often compute a return value. The return value is "returned" back to t
     return a * b;             // Function returns the product of a and b
   }
  
+## The () Operator Invokes the Function
+Using the example, toCelsius refers to the function object, and toCelsius() refers to the function result. Accessing a function without () will return the function object instead of the function result.
+
+  function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+  }
+  document.getElementById("demo").innerHTML = toCelsius(77);
+
+*when invoked
+
+  function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+  }
+  document.getElementById("demo").innerHTML = toCelsius;
+
+## Functions Used as Variable Values
+Functions can be used the same way as you use variables, in all types of formulas, assignments, and calculations.
+
+Instead of using a variable to store the return value of a function:
+
+  let x = toCelsius(77);
+  let text = "The temperature is " + x + " Celsius";
+
+You can use the function directly, as a variable value:
+
+  let text = "The temperature is " + toCelsius(77) + " Celsius";
+
+## Local Variables
+Variables declared within a JavaScript function, become LOCAL to the function. Local variables can only be accessed from within the function.
+Since local variables are only recognized inside their functions, variables with the same name can be used in different functions. Local variables are created when a function starts, and deleted when the function is completed.
+
+  // code here can NOT use carName
+
+  function myFunction() {
+    let carName = "Volvo";
+    // code here CAN use carName
+  }
+
+  // code here can NOT use carName
+
