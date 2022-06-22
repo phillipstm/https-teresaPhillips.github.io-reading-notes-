@@ -3,6 +3,13 @@
 
 ## Compose a short poem describing how HTTP sends data between computers.
 
+Hi-de-ho, what would you like to know?
+Let's connect quick,
+but the rules need to stick.
+Mission control is a go,
+need to make sure I follow the protoco...l.
+Fastest to be the first,
+to help quench your thirst.
 
 
 ## Describe how HTML, CSS, and JS files are “parsed” in the browser.
