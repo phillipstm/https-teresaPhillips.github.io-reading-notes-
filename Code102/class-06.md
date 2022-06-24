@@ -1,5 +1,6 @@
 # 06 - Dynamic web pages with JavaScript
-- [Table of Contents](README.md)
+
+- [Table of Contents](../README.md)
 
 
 JavaScript | MDN (mozilla.org)  or JS  just in time
@@ -100,7 +101,7 @@ Use the length property. Try entering the following lines: Useful to find the le
 
 ### Retrieving a specific string character
 Return any character inside a string by using square bracket notation — this means you include square brackets ([]) on the end of your variable name. Inside the square brackets you include the number of the character you want to return.
-        
+
     browserType[0];
 
 ## Remember: computers count from 0, not 1!
@@ -141,8 +142,8 @@ The string methods toLowerCase() and toUpperCase() take a string and convert all
     console.log(radData.toLowerCase());
     console.log(radData.toUpperCase());
 
-### Updating parts of a string 
-You can replace one substring inside a string with another substring using the replace() method. 
+### Updating parts of a string
+You can replace one substring inside a string with another substring using the replace() method.
 
     const browserType = 'mozilla';
     const updated = browserType.replace('moz','van');
@@ -157,17 +158,3 @@ You can replace one substring inside a string with another substring using the r
     browserType = browserType.replace('moz','van');
 
     console.log(browserType);  // "vanilla"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
