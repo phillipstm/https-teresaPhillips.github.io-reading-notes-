@@ -1,5 +1,6 @@
 # Read: 05 - Design web pages with CSS
-- [Table of Contents](README.md)
+
+- [Table of Contents](../README.md)
 
 CSS is a language for specifying how documents are presented to users — how they are styled, laid out, etc.
 h1 {
@@ -10,7 +11,7 @@ The rule opens with a selector . This selects the HTML element that we are going
 We then have a set of curly braces { }. Inside those will be one or more declarations, which take the form of property and value pairs. Each pair specifies a property of the element(s) we are selecting, then a value that we'd like to give the property.
 
 
-## Adding CSS to your document. 
+## Adding CSS to your document.
 
 To link styles.css to index.html, add the following line somewhere inside the <head> of the HTML document:
 
@@ -145,7 +146,7 @@ h1 {
 The rule opens with a selector . This selects the HTML element that we are going to style. In this case we are styling level one headings (<h1>).
 We then have a set of curly braces { }. Inside those will be one or more declarations, which take the form of property and value pairs. Each pair specifies a property of the element(s) we are selecting, then a value that we'd like to give the property.
 
-## Adding CSS to your document. 
+## Adding CSS to your document.
 
 To link styles.css to index.html, add the following line somewhere inside the <head> of the HTML document:
 
@@ -270,4 +271,3 @@ body h1 + p .special {
 ## CSS Reset
 
 https://meyerweb.com/eric/tools/css/reset/
-
