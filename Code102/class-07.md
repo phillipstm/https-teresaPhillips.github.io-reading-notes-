@@ -1,5 +1,6 @@
 # Read: 07 - Programming with JavaScript
-- [Table of Contents](README.md)
+
+- [Table of Contents](../README.md)
 
 control flow- the order in which the computer executes statements in a script.
 
@@ -118,7 +119,7 @@ Operator	Example	  Same As
 ## JavaScript functions
 A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed when "something" invokes it (calls it). Why use functions? You can reuse code: Define the code once, and use it many times. You can use the same code many times with different arguments, to produce different results.
 
-A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses (). 
+A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
 The parentheses may include parameter names separated by commas:
 (parameter1, parameter2, ...)
 The code to be executed, by the function, is placed inside curly brackets: {}
@@ -147,7 +148,7 @@ Functions often compute a return value. The return value is "returned" back to t
   function myFunction(a, b) {
     return a * b;             // Function returns the product of a and b
   }
- 
+
 ## The () Operator Invokes the Function
 Using the example, toCelsius refers to the function object, and toCelsius() refers to the function result. Accessing a function without () will return the function object instead of the function result.
 
@@ -187,4 +188,3 @@ Since local variables are only recognized inside their functions, variables with
   }
 
   // code here can NOT use carName
-

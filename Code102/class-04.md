@@ -1,5 +1,6 @@
 # Read: 04 - Structure web pages with HTML (HyperText Markup Language)
-- [Table of Contents](README.md)
+
+- [Table of Contents](../README.md)
 
 # Wire Frame Design
 
