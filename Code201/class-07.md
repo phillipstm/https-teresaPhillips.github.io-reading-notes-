@@ -117,8 +117,11 @@ Built in objects and APIs don't always create object instances automatically. As
 Explain prototypes and inheritance via an analogy from your previous work experience.
 NOTE: This is a very common front end developer interview question
 
+This would be when a example of the parent object and a child object of the parent.
+
 
 ## Bookmark and Review
 
 HTML Table Advanced Features and Accessibility
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced
+https://ui.dev/beginners-guide-to-javascript-prototype
