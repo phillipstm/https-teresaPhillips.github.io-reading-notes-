@@ -13,15 +13,15 @@ That it needs to be well structured for all users. Using the correct element ena
 
 -List 5 form elements and explain their importance.
 
-The <form> element formally defines a form and attributes that determine the form's behavior.
+The < form> element formally defines a form and attributes that determine the form's behavior.
 
-The <fieldset> element is a convenient way to create groups of widgets that share the same purpose, for styling and semantic purposes. 
+The < fieldset> element is a convenient way to create groups of widgets that share the same purpose, for styling and semantic purposes. 
 
-Many assistive technologies will use the <legend> element as if it is a part of the label of each control inside the corresponding <fieldset> element. For example, some screen readers such as Jaws and NVDA will speak the legend's content before speaking the label of each control.
+Many assistive technologies will use the < legend> element as if it is a part of the label of each control inside the corresponding < < < fieldset> element. For example, some screen readers such as Jaws and NVDA will speak the legend's content before speaking the label of each control.
 
-The <label> element is the formal way to define a label for an HTML form widget. This is the most important element if you want to build accessible forms — when implemented properly, screenreaders will speak a form element's label along with any related instructions, as well as it being useful for sighted users.
+The < label> element is the formal way to define a label for an HTML form widget. This is the most important element if you want to build accessible forms — when implemented properly, screenreaders will speak a form element's label along with any related instructions, as well as it being useful for sighted users.
 
-The <button> HTML element is an interactive element activated by a user with a mouse, keyboard, finger, voice command, or other assistive technology. Once activated, it then performs a programmable action, such as submitting a form or opening a dialog.
+The < button> HTML element is an interactive element activated by a user with a mouse, keyboard, finger, voice command, or other assistive technology. Once activated, it then performs a programmable action, such as submitting a form or opening a dialog.
 
 
 # Learn JS- Event Listeners
@@ -47,8 +47,8 @@ Event bubbling and capture are terms that describe phases in how the browser han
 
 In the capturing phase:
 
-The browser checks to see if the element's outer-most ancestor (<html>) has a click event handler registered on it for the capturing phase, and runs it if so.
-Then it moves on to the next element inside <html> and does the same thing, then the next one, and so on until it reaches the direct parent of the element that was actually clicked.
+The browser checks to see if the element's outer-most ancestor (< html>) has a click event handler registered on it for the capturing phase, and runs it if so.
+Then it moves on to the next element inside < html> and does the same thing, then the next one, and so on until it reaches the direct parent of the element that was actually clicked.
 
 In the bubbling phase, the exact opposite of the capturing phase occurs:
 
