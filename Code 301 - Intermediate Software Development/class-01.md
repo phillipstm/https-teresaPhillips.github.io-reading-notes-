@@ -118,3 +118,7 @@ https://reactjs.org/docs/rendering-elements.html
 
 •	React Docs - Components and props
 https://reactjs.org/docs/components-and-props.html
+
+
+## Things I want to know more about
+
