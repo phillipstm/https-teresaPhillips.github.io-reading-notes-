@@ -1,6 +1,5 @@
-# Read: 02 - HTML Text, CSS Introduction, and Basic JavaScript Instructions
-
 ## Introduction to HTML
+# Read: 02 - HTML Text, CSS Introduction, and Basic JavaScript Instructions
 
 ### Why is it important to use semantic elements in our HTML?
 
