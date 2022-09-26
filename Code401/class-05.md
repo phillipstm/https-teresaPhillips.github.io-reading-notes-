@@ -18,9 +18,6 @@ Terminology:
 
 ## Discussion by teaching something that you learned
 
-
-
-
 ## Big O: Analysis of Algorithm Efficiency
 
 <https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html>
