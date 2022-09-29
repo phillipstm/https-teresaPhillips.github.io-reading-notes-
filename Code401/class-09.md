@@ -64,6 +64,8 @@ Analogy of a stack and a que.......
 
 ### Solutions
 
-1. d-pushed     2. b-popped     3. c-peek
-
-4. c-FIFO       5. b-enqueue
+1. d-pushed
+2. b-popped
+3. c-peek
+4. c-FIFO
+5. b-enqueue
