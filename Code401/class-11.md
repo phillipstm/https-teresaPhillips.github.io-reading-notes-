@@ -23,7 +23,7 @@ Event Driven Programming is a logical pattern that is used to confine code to sm
 
 ## Bookmark and Review
 
-## Node docs: events ALL THINGS EVENT EMMITER
+## Node docs: events--- ALL THINGS EVENT EMMITER
 
 <https://nodejs.org/api/events.html>
 
