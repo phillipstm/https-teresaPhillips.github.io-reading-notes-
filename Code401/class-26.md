@@ -52,15 +52,28 @@ Components can refer to other components in their output. A button, a form, a di
 It is called JSX, and it is a syntax extension to JavaScript.
 
 **Describe the process of embedding JavaScript expressions in JSX.**
+
+We declare a variable called name and then use it inside JSX by wrapping it in curly brace.
+
 **Is it safe to embed user input in JSX? Explain.**
+
+It is safe to embed user input in JSX. React DOM escapes any values embedded in JSX before rendering them. Thus it ensures that you can never inject anything that’s not explicitly written in your application.
 
 ## rendering elements
 
 <https://facebook.github.io/react/docs/rendering-elements.html>
 
 **Explain what a React Component is to a non-technical friend.**
+
+Elements are the smallest building blocks of React apps. An element describes what you want to see on the screen.
+
 **Describe mutability and React Components, specifically, how is the UI updated?**
+
+React elements are immutable. Once you create an element, you can’t change its children or attributes. An element is like a single frame in a movie: it represents the UI at a certain point in time.
+
 **If changes are made to the UI, what does React update?**
+
+The Root React DOM. The only way to update the UI is to create a new element, and pass it to root.render().
 
 ## Bookmark and Review
 
@@ -71,7 +84,13 @@ It is called JSX, and it is a syntax extension to JavaScript.
 ## Additional Questions
 
 **Looking ahead at this module’s course schedule, What do you look forward to learning?**
+
+Mostly to have a better understanding by revisiting React and learning more new tools.
+
 **What are your learning goals after reading and reviewing the class README?**
+
+Learning more about JSX and components that can load their own Css.
 
 ## Things I want to know more about
 
+All of it.
