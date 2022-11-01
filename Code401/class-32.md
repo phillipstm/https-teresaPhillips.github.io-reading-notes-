@@ -14,6 +14,8 @@ It turns out that our custom hook from before is nothing more than a small wrapp
 
 **Specifically with Context, how are we “wrapping” components to achieve our goals?**
 
+By using a context hook.
+
 ## Awesome React Context links
 
 <https://github.com/diegohaz/awesome-react-context>
