@@ -106,8 +106,8 @@ The **algorithm for a depth first traversal** is as follows:
 
 Graphs are extremely popular when it comes to it’s uses. Here are just a few examples of graphs in use:
 
-GPS and Mapping
-Driving Directions
-Social Networks
-Airline Traffic
+GPS and Mapping,
+Driving Directions,
+Social Networks,
+Airline Traffic,
 Netflix uses graphs for suggestions of products
